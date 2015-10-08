@@ -40,8 +40,9 @@ class SwiftRecognitionViewController : UIViewController, UIImagePickerController
     @IBAction func buttonPressed(sender: UIButton) {
         // Show a UIImagePickerController to let the user pick an image from their library.
         let picker = UIImagePickerController()
-        picker.sourceType = .PhotoLibrary
-        picker.allowsEditing = false
+        //picker.sourceType = .PhotoLibrary
+        picker.sourceType = .Camera
+        picker.allowsEditing = true
         picker.delegate = self
         presentViewController(picker, animated: true, completion: nil)
     }
