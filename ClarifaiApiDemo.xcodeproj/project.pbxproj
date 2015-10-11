@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		404EFC761BACA33F009D4381 /* ClarifaiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 404EFC751BACA33F009D4381 /* ClarifaiClient.m */; };
-		407195211BADD02B0076B650 /* RecognitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407195201BADD02B0076B650 /* RecognitionViewController.m */; };
 		4088A4381BAEF1B500B1C682 /* SwiftRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4088A4371BAEF1B500B1C682 /* SwiftRecognitionViewController.swift */; };
 		408D395B1BACA1FA00C5608B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 408D395A1BACA1FA00C5608B /* main.m */; };
 		408D395E1BACA1FA00C5608B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 408D395D1BACA1FA00C5608B /* AppDelegate.m */; };
@@ -34,8 +33,6 @@
 		2C96310E8AE89EB32A1BF45E /* Pods-ClarifaiApiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClarifaiApiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClarifaiApiDemo/Pods-ClarifaiApiDemo.release.xcconfig"; sourceTree = "<group>"; };
 		404EFC741BACA33F009D4381 /* ClarifaiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClarifaiClient.h; sourceTree = "<group>"; };
 		404EFC751BACA33F009D4381 /* ClarifaiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClarifaiClient.m; sourceTree = "<group>"; };
-		4071951F1BADD02B0076B650 /* RecognitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognitionViewController.h; sourceTree = "<group>"; };
-		407195201BADD02B0076B650 /* RecognitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognitionViewController.m; sourceTree = "<group>"; };
 		4088A4361BAEF1B400B1C682 /* ClarifaiApiDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClarifaiApiDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		4088A4371BAEF1B500B1C682 /* SwiftRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRecognitionViewController.swift; sourceTree = "<group>"; };
 		408D39551BACA1FA00C5608B /* ClarifaiApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClarifaiApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,8 +95,6 @@
 				408D395D1BACA1FA00C5608B /* AppDelegate.m */,
 				404EFC741BACA33F009D4381 /* ClarifaiClient.h */,
 				404EFC751BACA33F009D4381 /* ClarifaiClient.m */,
-				4071951F1BADD02B0076B650 /* RecognitionViewController.h */,
-				407195201BADD02B0076B650 /* RecognitionViewController.m */,
 				4088A4371BAEF1B500B1C682 /* SwiftRecognitionViewController.swift */,
 				4088A4361BAEF1B400B1C682 /* ClarifaiApiDemo-Bridging-Header.h */,
 				408D39621BACA1FA00C5608B /* Main.storyboard */,
@@ -295,7 +290,6 @@
 				4088A4381BAEF1B500B1C682 /* SwiftRecognitionViewController.swift in Sources */,
 				408D395E1BACA1FA00C5608B /* AppDelegate.m in Sources */,
 				408D395B1BACA1FA00C5608B /* main.m in Sources */,
-				407195211BADD02B0076B650 /* RecognitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

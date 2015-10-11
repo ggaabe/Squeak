@@ -13,8 +13,8 @@ class SwiftRecognitionViewController : UIViewController, UIImagePickerController
     private struct Constants {
         // IMPORTANT NOTE: you should replace these keys with your own App ID and secret.
         // These can be obtained at https://developer.clarifai.com/applications
-        static let AppID = "vM05qo55uhZard2dL4BixmMm4WsHIl6CsGCTgS_7"
-        static let AppSecret = "rx4oPPiXiCWNRVcoJ0huLz02cKiQUZtq5JPVrhjM"
+        static let AppID = "sM3FcXiT4_CkI5AueAPfOWRxlrdZih8-spmpQbGE"
+        static let AppSecret = "rzaj5hpCAygNjqQyQa-THDYGhPLUF4eNpU44cBU4"
 
         // Custom Training (Alpha): to predict against a custom concept (instead of the standard
         // tag model), set this to be the name of the concept you wish to predict against. You must
