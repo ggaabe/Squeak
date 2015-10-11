@@ -56,6 +56,8 @@ class SwiftRecognitionViewController : UIViewController, UIImagePickerController
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
             // The user picked an image. Send it Clarifai for recognition.
             imageView.image = image
+            textView.backgroundColor = UIColor.whiteColor()
+            textView.textColor = UIColor.blackColor()
             textView.text = "Recognizing..."
             button.enabled = false
             recognizeImage(image)
@@ -69,6 +71,7 @@ class SwiftRecognitionViewController : UIViewController, UIImagePickerController
         UIGraphicsBeginImageContext(size)
         image.drawInRect(CGRectMake(0, 0, size.width, size.height))
         let scaledImage = UIGraphicsGetImageFromCurrentImageContext()
+       // let context = UIGraphicsGetCurrentContext()
         UIGraphicsEndImageContext()
 
         // Encode as a JPEG.
@@ -94,6 +97,23 @@ class SwiftRecognitionViewController : UIViewController, UIImagePickerController
                 } else {
                     self.textView.text = "Prediction score for \(Constants.ConceptName!):\n\(results![0].score)"
                 }
+                //let waterMessage = CGRect(x: size.width,y: size.height, width: size.width, height: 30)
+                self.textView.textColor = UIColor.whiteColor()
+                self.textView.font = UIFont(name: "Verdana", size: 25)
+                print(results![0].score)
+                if(results![0].score < 0.4){
+                   // self.view.addSubview(waterMessage)
+                   // CGContextSetFillColorWithColor(context, UIColor.redColor().CGColor)
+                    self.textView.backgroundColor = UIColor.redColor()
+                    
+                    self.textView.text = "CONTAMINATED: DO NOT DRINK"
+                }else{
+                   // CGContextSetFillColorWithColor(context, UIColor.greenColor().CGColor)
+                    self.textView.backgroundColor = UIColor.greenColor()
+                    self.textView.text = "CLEAN!"
+                }
+               // CGContextAddRect(context, waterMessage)
+                
                 self.button.enabled = true
             })
         }
