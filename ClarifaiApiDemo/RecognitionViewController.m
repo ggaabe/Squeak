@@ -9,8 +9,10 @@
 
 // IMPORTANT NOTE: you should replace these keys with your own App ID and secret.
 // These can be obtained at https://developer.clarifai.com/applications
-static NSString * const kAppID = @"vM05qo55uhZard2dL4BixmMm4WsHIl6CsGCTgS_7";
-static NSString * const kAppSecret = @"rx4oPPiXiCWNRVcoJ0huLz02cKiQUZtq5JPVrhjM";
+//static NSString * const kAppID = @"vM05qo55uhZard2dL4BixmMm4WsHIl6CsGCTgS_7";
+static NSString * const kAppID = @"sM3FcXiT4_CkI5AueAPfOWRxlrdZih8-spmpQbGE";
+//static NSString * const kAppSecret = @"rx4oPPiXiCWNRVcoJ0huLz02cKiQUZtq5JPVrhjM";
+static NSString * const kAppSecret = @"rzaj5hpCAygNjqQyQa-THDYGhPLUF4eNpU44cBU4";
 
 
 // Custom Training (Alpha): to predict against a custom concept (instead of the standard tag model),

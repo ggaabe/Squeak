@@ -20,7 +20,7 @@ class SwiftRecognitionViewController : UIViewController, UIImagePickerController
         // tag model), set this to be the name of the concept you wish to predict against. You must
         // have previously trained this concept using the same app ID and secret as above. For more
         // info on custom training, see https://github.com/Clarifai/hackathon
-        static let ConceptName: String? = nil
+        static let ConceptName: String? = "cleanWaterScratchedSlide"
         static let ConceptNamespace = "default"
     }
 
